@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CIS433Homework2</string>
+    <string name="app_title">CIS 433 Shopping List</string>
+    <string name="add_item_label">Add Item…</string>
+    <string name="frequent_items_label">Add frequent items below</string>
+    <string name="frequent_item_1">Apple</string>
+    <string name="frequent_item_2">Bread</string>
+    <string name="frequent_item_3">Eggs</string>
+    <string name="frequent_item_4">Milk</string>
+    <string name="frequent_item_5">Sugar</string>
+</resources>
