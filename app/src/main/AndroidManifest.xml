@@ -12,6 +12,9 @@
         android:theme="@style/Theme.CIS433Homework2"
         tools:targetApi="31">
         <activity
+            android:name=".ShoppingList"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
