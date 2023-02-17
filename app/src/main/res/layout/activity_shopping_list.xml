@@ -31,7 +31,8 @@
             android:layout_weight="1"
             android:insetLeft="5dp"
             android:insetRight="5dp"
-            android:text="Add More Items" />
+            android:text="Add More Items"
+            android:onClick="onAddMoreItemsClick"/>
 
         <Button
             android:id="@+id/button3"
@@ -40,7 +41,8 @@
             android:layout_weight="1"
             android:insetLeft="5dp"
             android:insetRight="5dp"
-            android:text="Delete All Items" />
+            android:text="Delete All Items"
+            android:onClick="onDeleteAllClick"/>
     </LinearLayout>
 
     <TextView
@@ -160,6 +162,27 @@
         android:text="@string/item_15"
         android:layout_gravity="center"
         android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/indexToDelete"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        android:hint="Enter the index of the item to delete" />
+
+    <Button
+        android:id="@+id/deleteIndexBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Click to Delete"
+        android:onClick="onDeleteSpecificItem"/>
 
 
 </LinearLayout>
